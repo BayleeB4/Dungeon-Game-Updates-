@@ -1,0 +1,48 @@
+#mainBody{
+	text-align: center;
+	margin: auto;
+}
+
+.objectStats{
+	font-size: 40px;
+}
+
+.killText{
+	display: none;
+	font-size: 60;
+}
+
+#enemyImage{
+	width: 350px;
+	height: 250px;
+}
+
+#itemTracker{
+	float: right;
+    width: 20%;
+    margin-left: -50%;
+    margin-right: 10%;
+    left: 50%;
+}
+
+.attackPotion{
+	width: 20%;
+	margin-bottom: 5px;
+}
+
+
+.continueShop{
+    width: 20%;
+}
+
+body{
+	background: url(https://www.toptal.com/designers/subtlepatterns/patterns/crossline-lines.png);
+}
+
+button{
+	font-size: 40px;
+}
+
+h1{
+	font-size: 60px;
+}

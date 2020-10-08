@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Week 6 - Dungeon Game</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+	<div id="mainBody">
+		<h1>Dungeon Game</h1>
+		
+		<div>
+		<button class="attackPotion" onclick="skirmish()">Attack</button>
+		<button class="attackPotion" onclick="drinkPotion()">Potion</button>
+		</div>
+		
+		<div>
+		<button class="continueShop" id="continueButton" style="display: none" onclick="continueButton()">Continue</button>
+		<button class="continueShop" id="shopButton" style="display: none">Shop</button>
+		</div>
+		
+		<p class="objectStats" id="playerStats"></p>
+		<p class="objectStats" id="itemTracker"></p>
+		<p class="objectStats" id="EnemyStats"></p>
+		<img id="enemyImage" />
+		<p class="objectStats" id="killText"></p>
+	</div>
+	
+	<script src="human.js"></script>
+	<script src="monsters.js"></script>
+	<script src="items.js"></script>
+	<script src="mechanics.js"></script>
+	</body>
+</html>

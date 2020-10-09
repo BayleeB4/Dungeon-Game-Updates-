@@ -1,6 +1,6 @@
 var player = {
 	name: "Casper",
-	hp: 100,
-	damage: 12,
+	hp: 1000,
+	damage: 120,
 	potions: 3
 }
